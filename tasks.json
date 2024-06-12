@@ -1,0 +1,37 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build package",
+      "command": "${command:s4tk.workspace.build}"
+    },
+    {
+      "label": "build scripts",
+      "type": "shell",
+      "command": "python ../sims4-mod-development-tools/compile.py"
+    },
+    {
+      "label": "build",
+      "dependsOn": ["build package", "build scripts"],
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "deploy",
+      "type": "shell",
+      "command": "./deploy.sh"
+    },
+    {
+      "label": "build and deploy",
+      "dependsOrder": "sequence",
+      "dependsOn": ["build", "deploy"],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
