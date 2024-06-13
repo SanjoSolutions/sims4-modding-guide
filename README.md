@@ -1,3 +1,9 @@
+## Installing Python
+
+It's recommended to install the same Python version as is used by Sims 4. At the time of writing this seems to be 3.7. This can be found out by checking the info on the file `<PATH_TO_SIMS_4>/Game/Bin/python*_x64.dll`.
+
+This can be done with [Anaconda](https://www.anaconda.com/download/success). After having installed Anaconda, create a new environment for Sims 4 by opening the `Anaconda Prompt` (you can find that under programs in Windows), and running the command `conda create --name Sims4 python=3.7`. To run Python scripts in this environment, open the `Anaconda Prompt` and switch to the environment with `conda activate Sims4`.
+
 ## Recommended Tools
 
 - [Visual Studio Code](https://code.visualstudio.com/): Free IDE that supports Python.
