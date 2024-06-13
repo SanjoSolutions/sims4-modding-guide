@@ -27,3 +27,4 @@ This can be done with [Anaconda](https://www.anaconda.com/download/success). Aft
 ## Other resources
 
 - [Lot 51 - Learn to mod](https://lot51.cc/resources)
+- [Python 3.7 documentation](https://docs.python.org/3.7/)
