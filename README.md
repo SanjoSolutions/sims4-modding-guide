@@ -4,6 +4,7 @@
 - [Sims 4 Toolkit in VS Code](https://vscode.sims4toolkit.com/): Can create the `.package` file for your mod.
 - [Sims 4 Mod Development Tools](https://github.com/SanjoSolutions/sims4-mod-development-tools): Can create the `.ts4scripts` file for your mod.
 - [Sims 4 Tuning Builder](https://tdesc.lot51.cc/): This tool works well for creating and modifying tunings. The graphical user interface provides a nice way to see what options are available, including documentation for them (in many cases).
+- [Sims 4 Studio](https://sims4studio.com/board/6/download-sims-studio-open-version): Good tool for opening `.package` files and extracting all files from a `.package` file via `Batch export`.
 
 ## Project template
 
